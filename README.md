@@ -127,6 +127,25 @@ bool = isComplex64Array( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-complex`][@stdlib/assert/is-complex]: test if a value is a 64-bit or 128-bit complex number.
+-   [`@stdlib/assert/is-complex64`][@stdlib/assert/is-complex64]: test if a value is a 64-bit complex number.
+-   [`@stdlib/assert/is-complex128array`][@stdlib/assert/is-complex128array]: test if a value is a Complex128Array.
+-   [`@stdlib/assert/is-complex-typed-array`][@stdlib/assert/is-complex-typed-array]: test if a value is a complex typed array.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -183,6 +202,18 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-complex64array/main/LICENSE
 
 [@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-complex]: https://github.com/stdlib-js/assert-is-complex
+
+[@stdlib/assert/is-complex64]: https://github.com/stdlib-js/assert-is-complex64
+
+[@stdlib/assert/is-complex128array]: https://github.com/stdlib-js/assert-is-complex128array
+
+[@stdlib/assert/is-complex-typed-array]: https://github.com/stdlib-js/assert-is-complex-typed-array
+
+<!-- </related-links> -->
 
 </section>
 
