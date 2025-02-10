@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,28 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Complex64Array } from '@stdlib/types/array';
 
 /**
-* Test if a value is a Complex64Array.
+* Tests if a value is a Complex64Array.
 *
-* @module @stdlib/assert-is-complex64array
+* @param value - value to test
+* @returns boolean indicating whether value is a Complex64Array
 *
 * @example
-* var isComplex64Array = require( '@stdlib/assert-is-complex64array' );
-*
 * var bool = isComplex64Array( new Complex64Array( 10 ) );
 * // returns true
 *
-* bool = isComplex64Array( [] );
+* @example
+* var bool = isComplex64Array( [] );
 * // returns false
 */
-
-// MODULES //
-
-var isComplex64Array = require( './main.js' );
+declare function isComplex64Array( value: any ): value is Complex64Array;
 
 
 // EXPORTS //
 
-module.exports = isComplex64Array;
+export = isComplex64Array;
